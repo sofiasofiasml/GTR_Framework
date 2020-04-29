@@ -41,7 +41,7 @@ Application::Application(int window_width, int window_height, SDL_Window* window
 	frame = 0;
 	time = 0.0f;
 	elapsed_time = 0.0f;
-	mouse_locked = false;
+	mouse_locked = false;//COMA
 
 	//loads and compiles several shaders from one single file
     //change to "data/shader_atlas_osx.txt" if you are in XCODE
